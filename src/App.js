@@ -7,7 +7,7 @@ import "./App.css";
 // 2. Project
 
 function App() {
-  return <div className="App">안녕하세요</div>;
+  return <div className="App">Hello world</div>;
 }
 
 export default App;

@@ -1,21 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap");
-
-* {
-  /* margin: 0 0.5% 0 0.5%;
-  padding: 0 0; */
-  /* box-sizing: border-box; */
-  font-family: "Noto Sans KR", sans-serif;
-}
-/* .app-container {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-  width: 100%;
-}
-.space {
-  padding-top: 150px;
-} */
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap");
 
 .App {
-  font-family: "Noto Sans KR", sans-serif;
+  font-family: "Nanum Myeongjo", serif;
 }
