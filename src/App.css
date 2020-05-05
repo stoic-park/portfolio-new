@@ -136,7 +136,6 @@ body {
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap");
 
 .App {
-  /* height: 100vh; */
-  margin: 1%;
+  margin: 10%;
   font-family: "Nanum Myeongjo", serif;
 }
