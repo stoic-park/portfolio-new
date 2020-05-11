@@ -11,7 +11,8 @@ function App() {
   return (
     <div className="App">
       <Header currentPage={currentPage} setCurrentPage={setCurrentPage} />
-      <Route exact path="/portfolio" component={Project} />
+      {/* <Route exact path="/portfolio" component={Project} /> */}
+      <Route exact path="/portfolio/" component={Project} />
       <Switch>
         <Route path="portfolio/project" component={Project} />
         {/* <Route path="portfolio/about" component={About} /> */}

@@ -2,14 +2,18 @@
   display: flex;
   flex: 1;
   flex-direction: column;
-  margin: 1%;
+  margin: 5%;
   /* padding: 2% 2% 2% 0; */
-  border: 5px solid black;
+  /* border: 5px solid black; */
 }
 
 .projectDesc-title {
   display: flex;
   flex-direction: column;
-  font-size: 100%;
+  /* font-size: 100%; */
   /* font-size: ; */
+}
+
+.notionEmpty {
+  display: none;
 }
