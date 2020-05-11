@@ -1,0 +1,19 @@
+.project-box {
+  display: flex;
+  /* flex-direction: column; */
+  /* padding-bottom: 3%; */
+  margin: 1%;
+  border-bottom: 1px solid #ced4da;
+  /* border: 5px solid black; */
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+/* @media only screen and (max-width: 935px) {
+  .project-box {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 5%;
+    border-bottom: 1px solid #ced4da;
+  }
+} */

@@ -1,0 +1,23 @@
+.projectView-container {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  /* padding: 2% 0; */
+  /* margin-right: 5%; */
+  margin: 1%;
+  border: 5px solid black;
+}
+
+.project1 {
+  width: 20%;
+}
+.project2 {
+  width: 40%;
+}
+.gif {
+  width: 30%;
+  /* height: 100%; */
+}
