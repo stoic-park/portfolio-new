@@ -16,5 +16,6 @@
     flex-direction: column-reverse;
     padding: 5%;
     border-bottom: 1px solid #ced4da;
+    align-items: flex-start;
   }
 }

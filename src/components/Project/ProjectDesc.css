@@ -112,3 +112,17 @@
   font-size: 16px;
   padding-bottom: 1%;
 }
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .projectDesc-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    /* margin: 5%; */
+    /* padding: 2% 2% 2% 0; */
+    /* border: 5px solid black; */
+
+    /* align-items: center; */
+    /* justify-content: flex-start; */
+  }
+}
