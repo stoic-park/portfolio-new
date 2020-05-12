@@ -12,15 +12,13 @@ function App() {
     <div className="App">
       <Header currentPage={currentPage} setCurrentPage={setCurrentPage} />
       {/* <Route exact path="/portfolio" component={Project} /> */}
-      <Route exact path="/portfolio/" component={Project} />
+      <Route exact path="/portfolio" component={Project} />
       <Switch>
-        <Route path="portfolio/project" component={Project} />
-        {/* <Route path="portfolio/about" component={About} /> */}
+        <Route path="/portfolio/project" component={Project} />
         <Route
-          path="portfolio/about"
+          path="/about"
           render={() => <About setCurrentPage={setCurrentPage} />}
         />
-        {/* <Route path="portfolio/about" component={About} /> */}
       </Switch>
     </div>
   );

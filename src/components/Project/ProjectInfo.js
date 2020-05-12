@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Project from "./Project";
+// gif
 import SignIn from "../../images/gifs/signIn.gif";
 import BorrowRequest from "../../images/gifs/borrowRequest.gif";
 import SignUp from "../../images/gifs/signUp.gif";

@@ -73,6 +73,7 @@
     align-items: flex-start;
     flex: 1;
     flex-direction: column;
+    /* margin-bottom: 3%; */
     /* justify-self: center; */
     /* align-items: center; */
     /* align-items: flex-end; */
@@ -85,5 +86,8 @@
     text-align: right;
     /* text-align: center; */
     /* border: 5px solid black; */
+  }
+  .name {
+    margin-bottom: 1%;
   }
 }

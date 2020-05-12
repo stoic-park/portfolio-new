@@ -34,7 +34,7 @@ function Header(props) {
         </Link>
         <Link
           className={props.currentPage === "about" ? "link underLine" : "link"}
-          to="/portfolio/about"
+          to="/about"
           onClick={() => props.setCurrentPage("about")}
         >
           About
