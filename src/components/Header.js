@@ -9,14 +9,14 @@ function Header(props) {
       <div className="header-left">
         <Link
           className="name"
-          to="/portfolio"
+          to="/portfolio-new"
           onClick={() => props.setCurrentPage("project")}
         >
           Sungtaek Park
         </Link>
         <Link
           className="future"
-          to="/portfolio"
+          to="/portfolio-new"
           onClick={() => props.setCurrentPage("project")}
         >
           꾸준히 성장하는 소통 전문 개발자
@@ -27,7 +27,7 @@ function Header(props) {
           className={
             props.currentPage === "project" ? "link underLine" : "link"
           }
-          to="/portfolio"
+          to="/portfolio-new"
           onClick={() => props.setCurrentPage("project")}
         >
           Project
