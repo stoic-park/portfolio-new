@@ -14,6 +14,13 @@ function Header(props) {
         >
           Sungtaek Park
         </Link>
+        <Link
+          className="future"
+          to="/portfolio"
+          onClick={() => props.setCurrentPage("project")}
+        >
+          꾸준히 성장하는 소통 전문 개발자
+        </Link>
       </div>
       <div className="header-right">
         <Link

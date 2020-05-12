@@ -67,11 +67,11 @@ function ProjectInfo() {
           uri:
             "https://user-images.githubusercontent.com/55645972/76160066-21388000-616a-11ea-9bd2-20f29fe95a76.gif",
         },
-        {
-          text: "SignOut",
-          uri:
-            "https://user-images.githubusercontent.com/55645972/76160083-40cfa880-616a-11ea-9286-68c9c5882b6c.gif",
-        },
+        // {
+        //   text: "SignOut",
+        //   uri:
+        //     "https://user-images.githubusercontent.com/55645972/76160083-40cfa880-616a-11ea-9286-68c9c5882b6c.gif",
+        // },
       ],
       name: "CheerLeader",
       role: "팀장",
