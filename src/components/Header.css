@@ -13,14 +13,31 @@
   width: 50%;
   display: flex;
   flex: 1;
-  flex-direction: column;
+  /* flex-direction: column; */
   /* justify-self: center; */
-  /* align-items: center; */
+  align-items: center;
   /* align-items: flex-end; */
   /* text-align: center; */
   /* border: 5px solid black; */
 }
 
+.title-box {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  /* align-items: flex-end; */
+  /* justify-items: end; */
+  justify-content: flex-end;
+  /* text-align: end; */
+  /* border: 5px solid black; */
+}
+
+.Lama {
+  height: 5%;
+  width: 9%;
+  border-radius: 20px;
+  /* border: 5px solid black; */
+}
 .name {
   flex: 1;
   padding: 8px 12px;
@@ -77,30 +94,50 @@
   .header-container {
     display: flex;
     flex: 1;
-    justify-content: start;
+    /* justify-content: start; */
+    /* align-items: center; */
+    text-align: center;
     /* flex-direction: column-reverse; */
+    flex-direction: column;
     padding: 5%;
     border-bottom: 1px solid #ced4da;
     /* border: 5px solid black; */
   }
   .header-left {
-    width: 50%;
+    width: 80%;
     display: flex;
-    align-items: flex-start;
+    /* align-items: flex-start; */
     flex: 1;
     flex-direction: column;
+    justify-content: center;
     /* margin-bottom: 3%; */
     /* justify-self: center; */
     /* align-items: center; */
     /* align-items: flex-end; */
     /* text-align: center; */
     /* border: 5px solid black; */
+    /* padding-bottom: 20px; */
+  }
+  .title-box {
+    /* display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; */
+    /* border: 5px solid black; */
   }
 
   .header-right {
-    width: 50%;
-    text-align: right;
-    /* text-align: center; */
+    width: 70%;
+    /* text-align: right; */
+    padding: 10px;
+    text-align: center;
+    /* border: 5px solid black; */
+  }
+  .Lama {
+    width: 10%;
+    /* display: none; */
+    /* position: absolute; */
     /* border: 5px solid black; */
   }
   .name {
@@ -114,6 +151,9 @@
   }
 
   .link {
+    /* padding: 10px; */
+    /* margin-top: 10px; */
+    /* padding-top: 10px; */
     font-size: 14px;
   }
 }

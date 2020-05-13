@@ -1,5 +1,10 @@
 import React from "react";
 import "./ProjectDesc.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faCoffee } from "@fortawesome/free-solid-svg-icons";
+import { faBook } from "@fortawesome/free-solid-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+// import {  } from "@fortawesome/free-brands-svg-icons";
 
 function ProjectDesc({
   name,
@@ -24,15 +29,28 @@ function ProjectDesc({
         <span className="title-duration">{duration}</span>
         <div className="title-emoticon">
           <span className="github">
+            {/* <FontAwesomeIcon icon={faCoffee} /> */}
+            <FontAwesomeIcon className="github-icon" icon={faGithub} />
             {
-              <a href={github} target="_blank" rel="noopener noreferrer">
+              <a
+                className="github-text"
+                href={github}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 GitHub Repo
               </a>
             }
           </span>
           <span className={notion ? "notion" : "notionEmpty"}>
+            <FontAwesomeIcon className="notion-icon" icon={faBook} />
             {
-              <a href={notion} target="_blank" rel="noopener noreferrer">
+              <a
+                className="notion-text"
+                href={notion}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Notion Page
               </a>
             }
