@@ -1,26 +1,27 @@
 {
   "files": {
-    "main.css": "/portfolio-new/static/css/main.c00f9ec4.chunk.css",
-    "main.js": "/portfolio-new/static/js/main.cbf6f19d.chunk.js",
-    "main.js.map": "/portfolio-new/static/js/main.cbf6f19d.chunk.js.map",
+    "main.css": "/portfolio-new/static/css/main.8ad9b133.chunk.css",
+    "main.js": "/portfolio-new/static/js/main.a67a0586.chunk.js",
+    "main.js.map": "/portfolio-new/static/js/main.a67a0586.chunk.js.map",
     "runtime-main.js": "/portfolio-new/static/js/runtime-main.d5a3da26.js",
     "runtime-main.js.map": "/portfolio-new/static/js/runtime-main.d5a3da26.js.map",
-    "static/js/2.919b9d3b.chunk.js": "/portfolio-new/static/js/2.919b9d3b.chunk.js",
-    "static/js/2.919b9d3b.chunk.js.map": "/portfolio-new/static/js/2.919b9d3b.chunk.js.map",
+    "static/js/2.caf0e2b8.chunk.js": "/portfolio-new/static/js/2.caf0e2b8.chunk.js",
+    "static/js/2.caf0e2b8.chunk.js.map": "/portfolio-new/static/js/2.caf0e2b8.chunk.js.map",
     "index.html": "/portfolio-new/index.html",
-    "precache-manifest.16f6882def339c530dcafb3f7fab21a1.js": "/portfolio-new/precache-manifest.16f6882def339c530dcafb3f7fab21a1.js",
+    "precache-manifest.9bfb7b40252514b51bb6264dcf73f8cd.js": "/portfolio-new/precache-manifest.9bfb7b40252514b51bb6264dcf73f8cd.js",
     "service-worker.js": "/portfolio-new/service-worker.js",
-    "static/css/main.c00f9ec4.chunk.css.map": "/portfolio-new/static/css/main.c00f9ec4.chunk.css.map",
-    "static/js/2.919b9d3b.chunk.js.LICENSE.txt": "/portfolio-new/static/js/2.919b9d3b.chunk.js.LICENSE.txt",
+    "static/css/main.8ad9b133.chunk.css.map": "/portfolio-new/static/css/main.8ad9b133.chunk.css.map",
+    "static/js/2.caf0e2b8.chunk.js.LICENSE.txt": "/portfolio-new/static/js/2.caf0e2b8.chunk.js.LICENSE.txt",
     "static/media/borrowRequest.gif": "/portfolio-new/static/media/borrowRequest.82b151bf.gif",
     "static/media/signIn.gif": "/portfolio-new/static/media/signIn.7df9a46f.gif",
     "static/media/signUp.gif": "/portfolio-new/static/media/signUp.ffe51515.gif",
-    "static/media/uploadBook.gif": "/portfolio-new/static/media/uploadBook.53fb512d.gif"
+    "static/media/uploadBook.gif": "/portfolio-new/static/media/uploadBook.53fb512d.gif",
+    "static/media/라마.png": "/portfolio-new/static/media/라마.65918d4e.png"
   },
   "entrypoints": [
     "static/js/runtime-main.d5a3da26.js",
-    "static/js/2.919b9d3b.chunk.js",
-    "static/css/main.c00f9ec4.chunk.css",
-    "static/js/main.cbf6f19d.chunk.js"
+    "static/js/2.caf0e2b8.chunk.js",
+    "static/css/main.8ad9b133.chunk.css",
+    "static/js/main.a67a0586.chunk.js"
   ]
 }
