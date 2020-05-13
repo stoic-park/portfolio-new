@@ -1,5 +1,6 @@
 .header-container {
   display: flex;
+  justify-content: space-between;
   flex: 1;
   flex-direction: row;
   width: 95%;
@@ -11,25 +12,31 @@
   width: 50%;
   display: flex;
   flex: 1;
-  /* flex-direction: column; */
+  flex-direction: column;
   /* justify-self: center; */
   /* align-items: center; */
-  align-items: flex-end;
+  /* align-items: flex-end; */
   /* text-align: center; */
   /* border: 5px solid black; */
 }
 
 .name {
   flex: 1;
+  padding: 8px 12px;
   text-decoration: none;
   color: #000000;
   font-size: 30px;
   /* border: 5px solid black; */
   font-weight: 500;
 }
+/* .name:hover {
+  background-color: antiquewhite;
+  border-radius: 4px;
+} */
 
 .future {
-  flex: 3;
+  flex: 1;
+  padding: 8px 12px;
   text-decoration: none;
   color: #000000;
 
@@ -47,17 +54,25 @@
 
 .link {
   margin-right: 3%;
-  padding-bottom: 1%;
+  /* padding-bottom: 1%; */
+  padding: 8px 12px;
   user-select: none;
   color: #212529;
   font-size: 20px;
   text-decoration: none;
 }
-.underLine {
-  border-bottom: 1px #212529 solid;
+
+.link:hover {
+  background-color: antiquewhite;
+  border-radius: 4px;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+/* .underLine {
+  border-bottom: 1px #212529 solid;
+} */
+
+/* @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) { */
+@media screen and (max-width: 768px) {
   .header-container {
     display: flex;
     flex: 1;
