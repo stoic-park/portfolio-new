@@ -13,7 +13,7 @@ function ProjectView(props) {
           key={`${props.id}_${idx}`}
         >
           <img className="gif" alt="" src={gif.uri} />
-          <div>{gif.text}</div>
+          <div className="gif-name">{gif.text}</div>
         </div>
       ))}
     </div>
