@@ -8,6 +8,7 @@ import Header from "./components/Header";
 
 function App() {
   const [currentPage, setCurrentPage] = useState("project");
+  console.log(currentPage);
   return (
     <div className="App">
       <Header currentPage={currentPage} setCurrentPage={setCurrentPage} />

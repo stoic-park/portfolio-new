@@ -11,7 +11,9 @@
 ### 기획
 
 1. design
-   ![portfolio2-flow](https://user-images.githubusercontent.com/55645972/81775433-cf282800-9527-11ea-98c7-3d45214f436d.png)
+   ![portfolio2-flow (1)](https://user-images.githubusercontent.com/55645972/82215337-3d1e8600-9952-11ea-81b6-653211f4039a.png)
 
-2. structure flow
-   ![portfolio2-flow2-Page-2](https://user-images.githubusercontent.com/55645972/81775437-d0f1eb80-9527-11ea-867a-615705b2fb59.png)
+   ![About](https://user-images.githubusercontent.com/55645972/82214830-64288800-9951-11ea-91e6-b4fd2ea15df8.png)
+
+2) structure flow
+   ![portfolio2-flow2-Page-2-Page-2](https://user-images.githubusercontent.com/55645972/82215343-3db71c80-9952-11ea-9f11-2947c9d59b3b.png)
