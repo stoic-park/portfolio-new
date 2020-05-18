@@ -17,19 +17,27 @@ function ProjectInfo() {
       gifs: [
         {
           text: "SignIn",
-          uri: SignIn,
+          // uri: SignIn,
+          uri:
+            "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/4daa9fe2-8f78-40b5-aeff-0bdfd3600839/signIn.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200518T053427Z&X-Amz-Expires=86400&X-Amz-Signature=c739ac42af78dc0a628a0fa3af0adef0807e515e717c57b2bddbde0e33df43f2&X-Amz-SignedHeaders=host",
         },
         {
           text: "SignUp",
-          uri: SignUp,
+          // uri: SignUp,
+          uri:
+            "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/142c1e7c-25f6-4bdd-ad99-5596a79f77b4/signUp.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200518T053427Z&X-Amz-Expires=86400&X-Amz-Signature=b36f460de0bbf4b1413caa09c0c37a0cb50004a70ac9e7ed0b5f98b04cd59a7f&X-Amz-SignedHeaders=host",
         },
         {
           text: "UploadBook",
-          uri: UploadBook,
+          // uri: UploadBook,
+          uri:
+            "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e3144992-6264-4767-8810-f8088c685e6b/uploadBook.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200518T053705Z&X-Amz-Expires=86400&X-Amz-Signature=bea4f4351801d110ea5f25cd98449d9458e9d946d1215c1644f92c2c9df71c2c&X-Amz-SignedHeaders=host",
         },
         {
           text: "BorrowRequest",
-          uri: BorrowRequest,
+          // uri: BorrowRequest,
+          uri:
+            "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/dac9f852-344f-4609-80d4-579840a38295/borrowRequest.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200518T053745Z&X-Amz-Expires=86400&X-Amz-Signature=cbc1c97949bba1fc35c8b69b16769ec6757c00b970f771f779791b4781014b14&X-Amz-SignedHeaders=host",
         },
       ],
       name: "ShareBook",
