@@ -39,16 +39,29 @@
 }
 
 .rio {
-  height: 300px;
-  width: 400px;
+  height: 450px;
+  width: 600px;
   border-radius: 50px;
 }
 
 .About-intro {
+  display: flex;
+  flex-direction: column;
   flex: 1;
   /* border: 5px solid rgb(141, 63, 63); */
-  margin: 5%;
+  /* margin: 5%; */
   list-style: none;
+  justify-content: center;
+  /* align-items: center; */
+  /* text-align: start; */
+}
+
+.intro-detail {
+  /* justify-content: center; */
+  /* align-items: center; */
+  text-align: start;
+  padding: 8px 12px;
+  /* border: 1px solid rgb(15, 2, 87); */
 }
 
 /* ! font size */
@@ -206,9 +219,10 @@ a:active {
 
 /* ! 반응형 처리 */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .About-body1 {
     flex-direction: column;
+    align-items: center;
   }
 
   .middle-title {
@@ -241,14 +255,28 @@ a:active {
   }
 
   .About-intro {
-    font-size: 14px;
+    font-size: 12px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* width: 60%; */
   }
 
+  .intro-detail {
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding: 4px 8px;
+    /* border: 1px solid rgb(15, 2, 87); */
+  }
   .email-box {
     /* border: 1px solid rgb(15, 2, 87); */
     display: flex;
     /* flex-direction: column; */
     align-items: center;
     /* margin-top: 5%; */
+  }
+  .rio {
+    height: 300px;
+    width: 400px;
+    /* border-radius: 50px; */
   }
 }
