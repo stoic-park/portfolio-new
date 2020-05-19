@@ -86,7 +86,7 @@ function About(props) {
               >
                 {/* <img className="logo" id="github-logo" src={githubLogo} alt="" /> */}
                 <FontAwesomeIcon
-                  className="github-icon"
+                  className="github-icon2"
                   icon={faGithub}
                   size="3x"
                 />
