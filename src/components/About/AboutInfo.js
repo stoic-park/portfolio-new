@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import About from "./About";
 import Rio from "../../images/png/rio1.png";
+import Machu from "../../images/png/machuback.png";
 
 function AboutInfo() {
   // 필요한 정보들
@@ -14,7 +15,8 @@ function AboutInfo() {
     {
       photo: {
         // name: "rio",
-        uri: Rio,
+        // uri: Rio,
+        uri: Machu,
       },
       intro: [
         "사람들과 소통을 통해 함께 성장하기를 기대하는 개발자입니다.",
@@ -24,31 +26,27 @@ function AboutInfo() {
         // "어느새 사람들 틈에 꼭 맞는 인재가 되어있을 것입니다",
       ],
       stack: {
-        title: "Stack",
-        frontend: {
-          title: "Front-End",
-          strong: "React, React-native, Redux",
+        title: "STACK",
+        strong: {
+          title: "Strong",
+          element: "React, React-native, Redux",
           // 허허...좀 추가 해야겠구만?
         },
-        backend: {
-          title: "Back-End",
-          strong: "Node.js, Express, MySQL, Sequelize",
-        },
-        deploy: {
-          title: "Deploy",
-          strong: "AWS R3, EC2, RDS",
+        experienced: {
+          title: "Experienced",
+          element: "Node.js, Express, MySQL, Sequelize, AWS",
         },
         tools: {
           title: "Tool",
-          description: "Git, Notion, Slack",
+          element: "Git, Notion, Slack",
         },
       },
       education: {
-        title: "Education",
+        title: "EDUCATION",
         description: "Code States, Immersive Course 17th",
       },
       experience: {
-        title: "Experience",
+        title: "EXPERIENCE",
         description: {
           title: "2013.04 ~ 2015.06 / 육군 장교 (화생방 신속대응팀장, 소대장)",
           detail: [
@@ -58,7 +56,7 @@ function AboutInfo() {
         },
       },
       contact: {
-        title: "Contact",
+        title: "CONTACT",
         description: {
           github: {
             name: "Github",
