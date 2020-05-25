@@ -35,7 +35,8 @@ function About(props) {
               익혔고
             </div>
             <div className="intro-detail">
-              그중에서도 상대방의 의견을 듣는 것으로부터 시작하는 소통의 자세가
+              그중에서도 상대방의 의견을 `듣는 것`으로부터 시작하는 소통의
+              자세가
             </div>
             <div className="intro-detail">
               함께하는 사람들의 니즈를 보다 명확히 파악하고
