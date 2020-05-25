@@ -19,25 +19,29 @@ function ProjectInfo() {
           text: "SignIn",
           // uri: SignIn,
           uri:
-            "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/4daa9fe2-8f78-40b5-aeff-0bdfd3600839/signIn.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200525%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200525T051334Z&X-Amz-Expires=86400&X-Amz-Signature=ff4a0b27ced8c11fe9a8c5c1a318154438b39465acb1953c65d3f0811f5da222&X-Amz-SignedHeaders=host",
+            "https://sharebook-gifs.s3.ap-northeast-2.amazonaws.com/signIn.gif",
+          // "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/4daa9fe2-8f78-40b5-aeff-0bdfd3600839/signIn.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200525%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200525T051334Z&X-Amz-Expires=86400&X-Amz-Signature=ff4a0b27ced8c11fe9a8c5c1a318154438b39465acb1953c65d3f0811f5da222&X-Amz-SignedHeaders=host",
         },
         {
           text: "SignUp",
           // uri: SignUp,
           uri:
-            "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/142c1e7c-25f6-4bdd-ad99-5596a79f77b4/signUp.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200525%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200525T051334Z&X-Amz-Expires=86400&X-Amz-Signature=fa5f0cac36809eea75af65909b4acc453117521078dc0f833c51338b966d8b30&X-Amz-SignedHeaders=host",
+            "https://sharebook-gifs.s3.ap-northeast-2.amazonaws.com/signUp.gif",
+          // "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/142c1e7c-25f6-4bdd-ad99-5596a79f77b4/signUp.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200525%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200525T051334Z&X-Amz-Expires=86400&X-Amz-Signature=fa5f0cac36809eea75af65909b4acc453117521078dc0f833c51338b966d8b30&X-Amz-SignedHeaders=host",
         },
         {
           text: "UploadBook",
           // uri: UploadBook,
           uri:
-            "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e3144992-6264-4767-8810-f8088c685e6b/uploadBook.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200525%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200525T051334Z&X-Amz-Expires=86400&X-Amz-Signature=8a1015026196c6f82079c74b52aa69716464a47c18bc84ee8fa9215298bda0e1&X-Amz-SignedHeaders=host",
+            "https://sharebook-gifs.s3.ap-northeast-2.amazonaws.com/uploadBook.gif",
+          // "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e3144992-6264-4767-8810-f8088c685e6b/uploadBook.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200525%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200525T051334Z&X-Amz-Expires=86400&X-Amz-Signature=8a1015026196c6f82079c74b52aa69716464a47c18bc84ee8fa9215298bda0e1&X-Amz-SignedHeaders=host",
         },
         {
           text: "BorrowRequest",
           // uri: BorrowRequest,
           uri:
-            "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/dac9f852-344f-4609-80d4-579840a38295/borrowRequest.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200525%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200525T051335Z&X-Amz-Expires=86400&X-Amz-Signature=c47467ffdfb66a6f0f8935f0695552f420302979f31beba9c723d4a1386359a7&X-Amz-SignedHeaders=host",
+            "https://sharebook-gifs.s3.ap-northeast-2.amazonaws.com/borrowRequest.gif",
+          // "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/dac9f852-344f-4609-80d4-579840a38295/borrowRequest.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200525%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200525T051335Z&X-Amz-Expires=86400&X-Amz-Signature=c47467ffdfb66a6f0f8935f0695552f420302979f31beba9c723d4a1386359a7&X-Amz-SignedHeaders=host",
         },
       ],
       name: "ShareBook",

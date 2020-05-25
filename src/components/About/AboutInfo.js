@@ -16,7 +16,9 @@ function AboutInfo() {
       photo: {
         // name: "rio",
         // uri: Rio,
-        uri: Machu,
+        // uri: Machu,
+        uri:
+          "https://sharebook-gifs.s3.ap-northeast-2.amazonaws.com/%EB%A7%88%EC%B6%94%ED%94%BC%EC%A3%BC-%EB%B0%B1%EC%83%B7.png",
       },
       intro: [
         <p>
