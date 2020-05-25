@@ -19,25 +19,25 @@ function ProjectInfo() {
           text: "SignIn",
           // uri: SignIn,
           uri:
-            "https://www.notion.so/ShareBook-70413a73da404cff86a298ab1c7025a3#d164fc52cb6440119b504fc0bf358f08",
+            "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/4daa9fe2-8f78-40b5-aeff-0bdfd3600839/signIn.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200525%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200525T051334Z&X-Amz-Expires=86400&X-Amz-Signature=ff4a0b27ced8c11fe9a8c5c1a318154438b39465acb1953c65d3f0811f5da222&X-Amz-SignedHeaders=host",
         },
         {
           text: "SignUp",
           // uri: SignUp,
           uri:
-            "https://www.notion.so/ShareBook-70413a73da404cff86a298ab1c7025a3#b49d27d298eb45a48e5919c8df3b9618",
+            "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/142c1e7c-25f6-4bdd-ad99-5596a79f77b4/signUp.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200525%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200525T051334Z&X-Amz-Expires=86400&X-Amz-Signature=fa5f0cac36809eea75af65909b4acc453117521078dc0f833c51338b966d8b30&X-Amz-SignedHeaders=host",
         },
         {
           text: "UploadBook",
           // uri: UploadBook,
           uri:
-            "https://www.notion.so/ShareBook-70413a73da404cff86a298ab1c7025a3#af368deadc8645de852eb93c1fd0f8a6",
+            "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e3144992-6264-4767-8810-f8088c685e6b/uploadBook.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200525%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200525T051334Z&X-Amz-Expires=86400&X-Amz-Signature=8a1015026196c6f82079c74b52aa69716464a47c18bc84ee8fa9215298bda0e1&X-Amz-SignedHeaders=host",
         },
         {
           text: "BorrowRequest",
           // uri: BorrowRequest,
           uri:
-            "https://www.notion.so/ShareBook-70413a73da404cff86a298ab1c7025a3#a70cbb1473b440d98d5e481dbe9f4e80",
+            "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/dac9f852-344f-4609-80d4-579840a38295/borrowRequest.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200525%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200525T051335Z&X-Amz-Expires=86400&X-Amz-Signature=c47467ffdfb66a6f0f8935f0695552f420302979f31beba9c723d4a1386359a7&X-Amz-SignedHeaders=host",
         },
       ],
       name: "ShareBook",
