@@ -43,7 +43,7 @@ function AboutInfo() {
         },
         tools: {
           title: "Tool",
-          element: "Git, Notion, Slack",
+          element: "Git, Notion, Trello, Slack",
         },
       },
       education: {
