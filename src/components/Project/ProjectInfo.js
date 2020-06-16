@@ -61,14 +61,15 @@ function ProjectInfo() {
       stack:
         "React Native, React Navigation, Redux, Material UI, Expo, 카카오 API",
       contribution: [
-        `전체적인 디자인 기획 및 컴포넌트 구조 설계`,
-        `리액트 네이티브, 네비게이션을 이용한 전체적인 흐름 설계 및 구현`,
-        `리덕스를 통한 store 관리 구현`,
-        `리액트 훅스를 이용한 각 페이지별 스테이트 관리 구현`,
-        `Camera 사용을 위한 API 사용 ( expo camera,  permission, media-library, image-picker )`,
-        `도서 정보를 위한 API 사용 ( 카카오 책 검색 API )`,
-        `Flexbox를 이용한 전반적인 CSS 레이아웃 적용`,
-        `Material UI 를 이용한 CSS 디자인`,
+        `프로젝트 초기 프론트엔드 컴포넌트 구조 설계`,
+        `- React Navigation 을 통해 초기 페이지 구성 및 설계를 통해 협업에 기여함`,
+        `도서 등록 페이지 state 관리 개선`,
+        `- 서버 데이터를 Redux를 통해 관리하고, 페이지 내에서 필요한 데이터는 React Hooks를 통해 관리함으로써 state 관리 효율성에 기여`,
+        `카메라 사용을 위한 Expo API 사용`,
+        `- Expo Permission, Camrera, ImagePicker, MediaLibrary API를 이용해 카메라 권한 접근 및 촬영, 불러오기 기능 구현`,
+        `객관적 도서 정보 획득을 위한 API 사용`,
+        `- 도서 등록 시 카카오 도서 검색 API를 통해 객관적인 정보를 사용`,
+        `Material UI, Flexbox를 이용한 전반적인 CSS 레이아웃 및 디자인 구현`,
       ],
     },
     {
@@ -94,9 +95,11 @@ function ProjectInfo() {
       description: "랜덤 응원 메세지 웹 서비스",
       stack: "Node.js, Express, MySQL, Sequelize, JWT",
       contribution: [
-        `원활한 프로젝트 협업을 위해 기능 단위로 MVC 패턴 기반 컴포넌트 구성`,
-        `데이터 관리를 위해 Mysql, Sequelize 를 이용해 DB 구축`,
-        `인증을 위한 JWT 토큰 적용으로 보안성을 높임`,
+        `프로젝트 초기 전체적인 백엔드 구조 설계`,
+        `- 기능단위 MVC 패턴을 적용한 컴포넌트 구성`,
+        `JWT를 이용한 보안성 향상에 기여`,
+        `- session을 통한 회원 데이터 관리 방식에서 JWT토큰을 이용해서 보안성을 높임`,
+        `MySQL, Sequelize를 통한 DB 설계 및 구축`,
       ],
     },
   ]);
