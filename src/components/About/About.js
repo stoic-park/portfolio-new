@@ -20,7 +20,7 @@ function About(props) {
         <div className="About-intro">
           <p className="intro-detail">
             <div className="intro-detail">
-              사람들 틈에서 살아있음을 느낍니다
+              꾸준히 성장하는 소통과 협업에 강점이 있는 개발자입니다
             </div>
             <div className="intro-detail">
               혼자서 대단한 일을 해내는 것 보다도 사람들과 함께
@@ -45,7 +45,14 @@ function About(props) {
               그에 맞춰 발빠르게 행동하는 사람으로 성장시켜주었습니다
             </div>
           </p>
-          <p></p>
+          <p className="intro-detail">
+            <div className="intro-detail">
+              이러한 강점들을 바탕으로 소통과 협업을 통해서{" "}
+            </div>
+            <div className="intro-detail">
+              사용자 입장에 맞춘 서비스를 만드는 개발자를 목표로 하고 있습니다
+            </div>
+          </p>
           {/* {mation.intro.map((int, id) => (
               <li className="intro-detail" key={id}>
                 {int}
