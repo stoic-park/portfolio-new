@@ -22,7 +22,7 @@ function Header(props) {
             to="/portfolio-new"
             onClick={() => props.setCurrentPage("project")}
           >
-            꾸준히 성장하는 말 잘 듣는 개발자
+            꾸준히 성장하는 소통 전문 개발자
           </Link>
         </div>
       </div>
