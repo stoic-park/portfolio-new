@@ -22,7 +22,7 @@ function AboutInfo() {
       },
       intro: [
         <p>
-          사람틀 틈에서 살아있음을 느낍니다 혼자서 대단한 일을 해내는 것 보다도
+          틈에서 살아있음을 느낍니다 혼자서 대단한 일을 해내는 것 보다도
           사람들과 함께 크기와 상관없이 명확한 결과물을 만들어 낼 때 보람을
           느낍니다 살아오면서 겪은 여러 차례의 리더 경험을 통해 소통하는 능력을
           익혔고 그 중에서도 상대방의 의견을 `듣는 것`으로부터 시작하는 소통의
@@ -39,7 +39,7 @@ function AboutInfo() {
         },
         experienced: {
           title: "Experienced",
-          element: "Node.js, Express, MySQL, Sequelize, AWS",
+          element: "TypeScript, Node.js, Express, MySQL, Sequelize, AWS",
         },
         tools: {
           title: "Tool",
