@@ -45,7 +45,7 @@ function Header(props) {
         </Link>
         <a
           className="link"
-          href="https://sharebook-gifs.s3.ap-northeast-2.amazonaws.com/%EB%B0%95%EC%84%B1%ED%83%9D_%EC%9D%B4%EB%A0%A5%EC%84%9C.pdf"
+          href="http://bitly.kr/ZDERbKfKYxY"
           target="_blank"
           rel="noopener noreferrer"
         >
