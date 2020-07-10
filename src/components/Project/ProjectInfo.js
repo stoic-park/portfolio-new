@@ -67,6 +67,15 @@ function ProjectInfo() {
         `- 서버 데이터를 Redux를 통해 관리하고, 페이지 내에서 필요한 데이터는 React Hooks를 통해 관리함으로써 state 관리 효율성에 기여`,
         `카메라 사용을 위한 Expo API 사용`,
         `- Expo Permission, Camrera, ImagePicker, MediaLibrary API를 이용해 카메라 권한 접근 및 촬영, 불러오기 기능 구현`,
+        // (
+        //   <a
+        //     href="https://medium.com/@benomadWill/expo-permission-beb19f49c4b8"
+        //     target="_blank"
+        //     rel="noopener noreferrer"
+        //   >
+        //     관련 블로그 글
+        //   </a>
+        // )
         `객관적 도서 정보 획득을 위한 API 사용`,
         `- 도서 등록 시 카카오 도서 검색 API를 통해 객관적인 정보를 사용`,
         `Material UI, Flexbox를 이용한 전반적인 CSS 레이아웃 및 디자인 구현`,
@@ -77,7 +86,7 @@ function ProjectInfo() {
       gifDirection: "project2",
       gifs: [
         {
-          text: "SigIn & GetMessage",
+          text: "SignIn & GetMessage",
           uri:
             "https://user-images.githubusercontent.com/55645972/76160066-21388000-616a-11ea-9bd2-20f29fe95a76.gif",
         },
