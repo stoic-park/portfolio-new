@@ -111,6 +111,37 @@ function ProjectInfo() {
         `MySQL, Sequelize를 통한 DB 설계 및 구축`,
       ],
     },
+    {
+      id: 3,
+      gifDirection: "project3",
+      gifs: [
+        {
+          text: "JoinIn",
+          uri:
+            "https://sharebook-gifs.s3.ap-northeast-2.amazonaws.com/joinin.png",
+        },
+        {
+          text: "ChatScreen",
+          uri:
+            "https://sharebook-gifs.s3.ap-northeast-2.amazonaws.com/chatscreen.png",
+        },
+      ],
+      name: "LamaChat",
+      // role: "팀장",
+      position: "Full-Stack",
+      duration: "2020.07",
+      github: "https://github.com/stoic-park/lamaChat",
+      linkService: "https://stoic-park.github.io/lamaChat/",
+      description: "실시간 채팅 웹 서비스",
+      stack: "React, Socket.io, Node.js, Express, Heroku, Material-UI",
+      contribution: [
+        `React + Socket.io 대한 학습에서 출발`,
+        `- Socket.io를 통해서 여러 개의 채팅방을 개설 가능`,
+        `반응형 웹 작업`,
+        `- Material-UI, FlexBox, 미디어 쿼리를 이용해서 반응형 작업 진행`,
+        `Heroku를 이용한 서버 배포`,
+      ],
+    },
   ]);
   return (
     <div>

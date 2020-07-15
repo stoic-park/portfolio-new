@@ -13,6 +13,7 @@ function ProjectDesc({
   duration,
   github,
   notion,
+  linkService,
   description,
   stack,
   contribution,
@@ -52,6 +53,19 @@ function ProjectDesc({
                 rel="noopener noreferrer"
               >
                 Notion Page
+              </a>
+            }
+          </span>
+          <span className={linkService ? "linkService" : "linkServiceEmpty"}>
+            <FontAwesomeIcon className="github-icon" icon={faGithub} />
+            {
+              <a
+                className="link-text"
+                href={linkService}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Service Link
               </a>
             }
           </span>
